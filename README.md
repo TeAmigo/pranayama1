@@ -21,15 +21,10 @@ C-z will jump the active cursor to the stopwatcn window, in there 's' will start
 'l' in the stopwatch window starts a new segment, EmptyHold in this case. Hitting 'l' will create a new heading in the recording window up to the 4th segment, the end of a round.
 ![Taking a note](images/Screenshot_2020-07-26_16-13-10.png "using 'e' to jump back to recording window")
 
+This next screenshot shows taking a note and starting the 3rd segment *InBreath* 
+![Going into 3rd segment](images/Screenshot_2020-07-26_16-39-11.png "On to segment 3")
 
+Now we've done all the segments. *fini*.
+![All done](images/Screenshot_2020-07-26_16-39-11.png "*FINI*")
 
-
-
-
-
-
-
-
-
-
-
+![अ](Om3reallysmall.jpg)
