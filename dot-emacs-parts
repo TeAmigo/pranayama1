@@ -1,0 +1,17 @@
+
+
+(load "~/share/EmacsLispRPC/prana/stopwatch.el")
+(load "~/share/EmacsLispRPC/prana/prana.el")
+(load-file "~/share/EmacsLispRPC/prana/stopwatch-mode.el")
+(load-file "~/share/EmacsLispRPC/prana/stopwatch-controller.el")
+(load-file "~/share/EmacsLispRPC/prana/stopwatch-model.el")
+(load-file "~/share/EmacsLispRPC/prana/stopwatch-ascii-art-numbers.el")
+(load-file "~/share/EmacsLispRPC/prana/stopwatch-draw.el")
+(load-file "~/share/EmacsLispRPC/prana/stopwatch-time-helpers.el")
+
+(require 'ob-ipython)
+(pyvenv-activate "~/share/python-envs/3.8env")
+
+(load "~/share/EmacsLispRPC/pymacs.el")
+(add-to-list 'pymacs-load-path "/home/rick/share/python/pymacs")
+(add-to-list 'auto-mode-alist '("\\.csv\\'" . csv-mode))
