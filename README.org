@@ -1,3 +1,25 @@
+Pranayama1 notes
+
+* ABOUT  - <2020-07-26 Sun 11:30> - Converting org files to markdown, which looks better. Has the weird little index, etc, but still looks better. M-x C-c C-e runs the command org-export-dispatch, here are the markdown export commands from info:
+Markdown export commands
+------------------------
+‘C-c C-e m m     (org-md-export-to-markdown)’
+     Export to a text file with Markdown syntax.  For ‘myfile.org’, Org
+     exports to ‘myfile.md’, overwritten without warning.
+‘C-c C-e m M     (org-md-export-as-markdown)’
+     Export to a temporary buffer.  Does not create a file.
+‘C-c C-e m o’
+     Export as a text file with Markdown syntax, then open it.
+
+* CHECK  - <2020-07-26 Sun 11:28> - The series of commands repeated as work is done:
+#+begin_src shell
+git add *
+git status
+git commit -m "initial commit"
+git push
+#+end_src
+
+
 * Started on <2020-07-26 Sun 11:11> - 
 * ABOUT  - <2020-07-26 Sun 11:11> - Command line creation of new archive suggested by git after hitting the + button and creating the archive.
 #+begin_src shell
