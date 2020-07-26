@@ -1,0 +1,13 @@
+* Started on <2020-07-26 Sun 11:11> - 
+* ABOUT  - <2020-07-26 Sun 11:11> - Command line creation of new archive suggested by git after hitting the + button and creating the archive.
+#+begin_src shell
+echo "# pranayama1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/TeAmigo/pranayama1.git
+git push -u origin master
+#+end_src
+
+#+RESULTS:
+
