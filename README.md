@@ -25,6 +25,6 @@ This next screenshot shows taking a note and starting the 3rd segment *InBreath*
 ![Going into 3rd segment](images/Screenshot_2020-07-26_16-39-11.png "On to segment 3")
 
 Now we've done all the segments. *fini*.
-![All done](images/Screenshot_2020-07-26_16-39-11.png "*FINI*")
+![All done](images/Screenshot_2020-07-26_16-45-23.png "*FINI*")
 
 ![अ](Om3reallysmall.jpg)
