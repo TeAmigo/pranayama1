@@ -80,12 +80,6 @@ Also sends the line to the csv file."
   (org-insert-subheading 1)
   (let ((testit (y-or-n-p "Add session to csv file?")))
     (if testit (prana-addrow))))
-
-
-
-               
-        
-
   
 (defun jump-to-write ()
   (interactive)
