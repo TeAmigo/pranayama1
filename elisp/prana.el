@@ -20,11 +20,6 @@
 (defvar usingWHM 4 "setup for the 4 segment series suggested bt Wim Hof.")
 (defvar lapNum 0 "If usingWHM, used to end session at 4th lap.")
 
-;; <2020-07-19 Sun 10:04> rpc - works.
-(defun testtodo ()
-  (interactive)
-  (org-todo2 (nth segmentidx segments)))
-
 (defun prana-addrow()
   "<2020-07-18 Sat 18:02> rpc - add a row to the csv file holding the timing data."
   (getLapTimes)
@@ -82,7 +77,14 @@ Also sends the line to the csv file."
   (stopwatch-controller--stop-stopwatch StopwatchController)
   (other-window 1)
   (insert (concat "-<" (nth 1 (getLapTimes)) ">- "))
-  (org-insert-subheading 1))
+  (org-insert-subheading 1)
+  (let ((testit (y-or-n-p "Add session to csv file?")))
+    (if testit (prana-addrow))))
+
+
+
+               
+        
 
   
 (defun jump-to-write ()

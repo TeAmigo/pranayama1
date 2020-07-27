@@ -10,7 +10,12 @@
 I'm using the (stopwatch code created by ASNR) [https://github.com/asnr/stopwatch] . 
 
 ## To use
-   In the emacs buffer where the process will be recorded. M-x prana-start. This will create a split window with a stopwatch in the bottom panel. 
+
+* put all the elisp code where it can be loaded by emacs, and add what's needed to your .emacs /elisp/dot-emacs-parts has that.
+
+* In emacs M-x pymacs-load the csvs python source.
+
+* In the emacs buffer where the process will be recorded. M-x prana-start. This will create a split window with a stopwatch in the bottom panel. 
 
 ![After executing M-x prana-start in the top window](images/Screenshot_2020-07-26_15-37-49.png "After executing M-x prana-start in the top window")
 
