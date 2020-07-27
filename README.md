@@ -28,3 +28,7 @@ Now we've done all the segments. *fini*.
 ![All done](images/Screenshot_2020-07-26_16-45-23.png "*FINI*")
 
 ![अ](Om3reallysmall.jpg)
+
+## Requirements  
+1. Emacs (using 26.1), org-mode, stopwatch, and pymacs (all on Melpa)  
+2. Python 3 (using 3.8), modules - csv, matplotlib, and tkinter  
